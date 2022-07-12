@@ -1,0 +1,56 @@
+body {
+      font-family: arial;
+}
+
+h3 {
+      margi-top: 20px;
+      padding-left: 30px;
+}
+
+.bungkus {
+  display: flex;
+}
+
+.sekolah {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.sekolah {
+  padding-left: 10px;
+}
+
+.hobi a {
+ display: block;
+}
+
+
+/*  Soal No.2   
+    h1 -> selector
+    { text-align: center; color: red; } -> deklarasi style
+    text-align -> property
+    center -> value
+    color -> property
+    red-> value 
+*/
+
+/* Soal No.3
+Jika ada dua atau lebih aturan CSS yang bertentangan dan mengarah ke elemen yang sama, browser akan mengikuti beberapa aturan untuk menentukan mana yang paling spesifik.
+
+Spesifikasi bisa di anggap seperti skor/peringkat untuk menentukan style mana yang akan diterapkan kedalam suatu elemen. */
+
+/* Soal No.4 
+Ukuran halaman & elemen pada website bisa menyesuaikan dengan ukuran device 
+*/
+
+/* Soal No.5
+SS3 yang berguna membuat layout kita responsive dengan menyesuaikan tampilan berdasarkan ukuran layar perangkat 
+*/
+
+/* Soal No.6
+Properti css untuk membuat layout web
+*/
+
+/* Soal No.7
+Bootstrap adalah framework untuk CSS. cara penggunaannya denga me-link ke bootsrap lalu memanggil class yg sudah disediakan oleh bootstrap
+*/
