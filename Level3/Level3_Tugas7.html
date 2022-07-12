@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Level 3 | Tugas 7</title>
+</head>
+<body>
+	<script>
+		//----------Soal No.1----------
+		function cetakbintang(num) {
+			let bintang = '';
+			for (let i = 0; i < num; i++) {
+				for (let j = 0; j <= i; j++) {
+					bintang += '* ';
+				}
+				bintang += '\n';
+			}
+			return bintang;
+		}
+
+		console.log(cetakbintang(5));
+
+		//----------Soal No.2----------
+		function cetakkubus(num) {
+			let kubus = '';
+			for (let i = 0; i < num; i++) {
+				for (let j = 0; j <= num; j++) {
+					kubus += '* ';
+				}
+				kubus += '\n';
+			}
+			return kubus;
+		}
+
+		console.log(cetakkubus(4));
+	</script>
+</body>
+</html>
